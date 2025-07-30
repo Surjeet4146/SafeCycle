@@ -1,4 +1,5 @@
 runtime: nodejs18
 instance_class: F1
 env_variables:
-  MONGODB_URI: "mongodb+srv://ysurjeet148:Surjeet654321@GoogleMaps.yzu4py2.mongodb.net/safecycle?retryWrites=true&w=majority"
+  MONGODB_URI: "mongodb+srv://ysurjeet148:Surjeet654321@googlemaps.yzu4py2.mongodb.net/safecycle?retryWrites=true&w=majority"
+  GOOGLE_MAPS_API_KEY: "AIzaSyBjb5egv5smgfoPrGAf8oUijJFgpGHsQH0"
