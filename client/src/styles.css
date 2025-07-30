@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Arial', sans-serif;
+}
+input:focus, button:focus {
+  outline: 2px solid #10B981;
+  outline-offset: 2px;
+}
+@media (prefers-contrast: high) {
+  .bg-gray-100 { background-color: #fff; }
+  .text-gray-700 { color: #000; }
+  .bg-green-600 { background-color: #065F46; }
+  .bg-red-600 { background-color: #991B1B; }
+}
+@media (max-width: 640px) {
+  .text-3xl { font-size: 1.5rem; }
+  .text-lg { font-size: 1rem; }
+}

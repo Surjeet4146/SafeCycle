@@ -1,0 +1,14 @@
+{
+  "name": "safecycle",
+  "version": "1.0.0",
+  "description": "Safety-optimized cycling routes using Google Maps Platform",
+  "scripts": {
+    "start": "cd server && node server.js",
+    "client": "cd client && npm start",
+    "dev": "concurrently \"npm run start\" \"npm run client\"",
+    "build": "cd client && npm run build"
+  },
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
